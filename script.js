@@ -115,4 +115,4 @@ window.onload = function () {
         alert('Добро пожаловать ' + fullName.value);
     }
 
-}
+}console.log('Hello from dev-2 branch');

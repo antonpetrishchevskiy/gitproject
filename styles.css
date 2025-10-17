@@ -36,7 +36,7 @@ body {
 }
 .right-side {
     width: 50%;
-    background-color: #F8F8FA;
+    background-color: #2a2a95;
 }
 h2 {
     font-size: 36px;
@@ -51,7 +51,7 @@ h2 {
     font-weight: 700;
     line-height: 27px;
     text-align: left;
-    text-underline-position: from-font;
+#2a2a95    text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #636363;
     padding-bottom: 42px;
