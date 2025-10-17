@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunitobold.woff");
+}
+.main {
+    height: 1185px;
+    background-color: #F8F8FA;
+    display: flex;
+    position: relative;
+
+}
+.left-side-container {
+    width: 50%;
+    background-color: white;
+
+}
+.left-side {
+    max-width: 496px;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.right-side {
+    width: 50%;
+    background-color: #F8F8FA;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 7px;
+}
+.subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #636363;
+    padding-bottom: 42px;
+     width: 496px;
+
+}
+.input-container {
+    position: relative;
+    margin-top: 20px;
+    color: #C6C6C4;
+
+}
+
+.input-container label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 14px;
+    color: #C6C6C4;
+
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container input:focus {
+    border-bottom-color: #007BFF;
+}
+.label_style {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C6C6C4;
+}
+.checkbox-label {
+    padding-top: 22px;
+/*    padding-bottom: 32px;*/
+    color: #636363;
+
+}
+.btn {
+    padding: 24px 20px 23px;
+    width: 210px;
+    top: 855px;
+    left: 547px;
+    border-radius: 40px;
+    background-color: #DD3142;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+    margin-top: 38px;
+}
+.btn:hover {
+    box-shadow: 2px 2px 2px 2px rgba(113, 22, 22, 0.86);
+
+}
+.button-container {
+    text-align: center;
+    padding-bottom: 44px;
+}
+.link {
+    text-align: center;
+    padding-bottom: 200px;
+}
+a {
+    position: relative;
+    color: #636363;
+}
+а:after {
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #DD3142;
+    transition: width 4s ease-out;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+
+}
+.image {
+    margin-top: 200px;
+    max-width: 548px;
+    max-height: 600px;
+}
+.logo {
+    position: absolute;
+    right: calc(50% - 126px);
+    top: 27px;
+}
+.popup {
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 120px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    opacity: 0.92;
+    color: #636363;
+
+}
+.popup p {
+    margin-top: 36px;
+}
+.popup_button {
+    text-align: center;
+    padding: 20px 16px 18px;
+    border-radius: 40px;
+    background-color: #DD3142;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+    width: 170px;
+    margin-top: 36px;
+}
+.popup_button:hover {
+    box-shadow: 2px 2px 2px 2px rgba(113, 22, 22, 0.86);
+
+}
+
+
+/*
+.rocket_move {
+    position: absolute;
+    bottom: -300px;
+    right: -350px;
+    width: 50%;
+    z-index: 2;
+
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; !* Начинаем с полной прозрачности *!
+        transform: translateY(20px); !* Сдвигаем изображение вверх *!
+    }
+    50% {
+        opacity: 2; !* Полная видимость в середине анимации *!
+        transform: translateY(0); !* Возвращаем изображение на место *!
+    }
+    100% {
+        opacity: 0; !* Снова делаем изображение прозрачным *!
+        transform: translateY(-820px);
+        !* Сдвигаем изображение вниз *!
+    }
+}
+
+.rocket_move {
+    animation: fadeInOut 7s ease-in-out forwards; !* Применяем анимацию к изображению *!
+}*/
