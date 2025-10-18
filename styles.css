@@ -241,3 +241,19 @@ h2 {
     0% { text-shadow: 0 0 10px rgba(42, 42, 149, 0.3); }
     100% { text-shadow: 0 0 20px rgba(221, 49, 66, 0.5); }
 }
+
+/* Улучшение контейнеров ввода - коммит 3 */
+.input-container {
+    transition: transform 0.3s ease;
+}
+
+.input-container:hover {
+    transform: translateX(10px);
+}
+
+.input-container input:focus {
+    border-bottom-color: #2a2a95;
+    background: linear-gradient(to bottom, transparent 95%, #2a2a95 95%);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+}
