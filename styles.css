@@ -221,3 +221,23 @@ a {
 .rocket_move {
     animation: fadeInOut 7s ease-in-out forwards; !* Применяем анимацию к изображению *!
 }*/
+
+/* Улучшения кнопки и анимаций - коммит 1 */
+.btn {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 15px rgba(221, 49, 66, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(221, 49, 66, 0.4);
+    background: linear-gradient(45deg, #DD3142, #C12938);
+}
+
+.input-container input {
+    transition: border-bottom-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-container input:focus {
+    box-shadow: 0 2px 10px rgba(0, 123, 255, 0.1);
+}
