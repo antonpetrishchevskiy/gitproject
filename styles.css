@@ -221,3 +221,9 @@ a {
 .rocket_move {
     animation: fadeInOut 7s ease-in-out forwards; !* Применяем анимацию к изображению *!
 }*/
+
+/* Улучшение основной секции - коммит 1 */
+.main {
+    background: linear-gradient(135deg, #F8F8FA 0%, #FFFFFF 50%, #F0F0F5 100%);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
