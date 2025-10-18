@@ -292,3 +292,27 @@ h2 {
     background-color: #2a2a95;
     border-color: #2a2a95;
 }
+
+/* Улучшение логотипа и добавление футера - коммит 5 */
+.logo {
+    transition: all 0.5s ease;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.2));
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.3));
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #636363;
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(248, 248, 250, 0.9);
+    backdrop-filter: blur(10px);
+}
