@@ -257,3 +257,38 @@ h2 {
     background-size: 100% 3px;
     background-repeat: no-repeat;
 }
+
+/* Стилизация чекбокса - коммит 4 */
+.checkbox-label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.checkbox-label:hover {
+    color: #2a2a95;
+}
+
+.checkbox-label input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-label .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #C6C6C4;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.checkbox-label input:checked ~ .checkmark {
+    background-color: #2a2a95;
+    border-color: #2a2a95;
+}
