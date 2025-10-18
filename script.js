@@ -116,3 +116,9 @@ window.onload = function () {
     }
 
 }console.log('Hello from dev-2 branch');
+
+// Новый функционал добавлен в master
+console.log('Feature from master branch');
+function newFeature() {
+    return 'This is new functionality';
+}
